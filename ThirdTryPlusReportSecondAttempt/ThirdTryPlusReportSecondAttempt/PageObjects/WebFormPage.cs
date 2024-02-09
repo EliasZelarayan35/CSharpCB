@@ -1,0 +1,33 @@
+﻿using OpenQA.Selenium;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ThirdTryPlusReportSecondAttempt
+{
+    public class WebFormPage
+    {
+        #region locators
+        IWebElement TextArea => driver.FindElement(By.Name("my-textarea"));
+        IWebElement SubmitBtn => driver.FindElement(By.TagName("button"));
+        #endregion locators
+
+        IWebDriver driver;
+
+        #region methods
+        public WebFormPage WriteTextToTextArea(string text)
+        {
+            TextArea.SendKeys(text);
+
+            return this;
+        }
+
+        public void SubmitForm()
+        {
+            SubmitBtn.Click();
+        }
+        #endregion methods
+    }
+}

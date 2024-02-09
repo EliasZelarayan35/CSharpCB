@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\EZELARAYAN\\Documents\\EliasProjects\\AutomationCodeBase\\C#\\ThirdTry\\ThirdTry\\ThirdTry.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EZELARAYAN\\Documents\\EliasProjects\\AutomationCodeBase\\C#\\ThirdTry\\ThirdTry\\ThirdTry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EZELARAYAN\\Documents\\EliasProjects\\AutomationCodeBase\\C#\\ThirdTry\\ThirdTry\\ThirdTry.csproj",
+        "projectName": "ThirdTry",
+        "projectPath": "C:\\Users\\EZELARAYAN\\Documents\\EliasProjects\\AutomationCodeBase\\C#\\ThirdTry\\ThirdTry\\ThirdTry.csproj",
+        "packagesPath": "C:\\Users\\EZELARAYAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EZELARAYAN\\Documents\\EliasProjects\\AutomationCodeBase\\C#\\ThirdTry\\ThirdTry\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EZELARAYAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "BasePageObjectModel": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "BasePageObjectModel.Nunit": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[120.0.6099.10900, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[119.0.2151.42, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
